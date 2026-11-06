@@ -1,3 +1,71 @@
 import '../models/recipe.dart';
 
-final List<Recipe> sampleRecipes = [];
+final List<Recipe> sampleRecipes = [
+  Recipe(
+    id: 'r1',
+    title: 'Hyderabadi Chicken Biryani',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800',
+    duration: 60,
+    difficulty: 'Hard',
+    ingredients: [
+      '500g Chicken',
+      '2 cups Basmati Rice',
+      '1 cup Yogurt',
+      '2 Onions (sliced & fried)',
+      '2 tbsp Biryani Masala',
+      'Mint & Coriander leaves',
+      'Ghee & Saffron milk',
+    ],
+    steps: [
+      'Marinate chicken with yogurt, spices, and half fried onions for 1 hour.',
+      'Parboil basmati rice with whole spices until 70% cooked.',
+      'Layer marinated chicken and rice in a heavy pot.',
+      'Top with mint, saffron milk, and ghee.',
+      'Seal with lid and cook on low heat (dum) for 30 minutes.',
+    ],
+  ),
+  Recipe(
+    id: 'r2',
+    title: 'Paneer Butter Masala',
+    imageUrl: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800',
+    duration: 35,
+    difficulty: 'Medium',
+    ingredients: [
+      '250g Paneer cubes',
+      '3 Tomatoes (pureed)',
+      '1 Onion (finely chopped)',
+      '10-12 Cashews (paste)',
+      '2 tbsp Butter & Fresh cream',
+      '1 tsp Kasuri Methi',
+      'Spices (Chilli, Turmeric, Garam Masala)',
+    ],
+    steps: [
+      'Saute onions and spices in butter until aromatic.',
+      'Add tomato puree and cook until oil separates.',
+      'Stir in cashew paste and water to make a smooth gravy.',
+      'Add paneer cubes and simmer for 5-7 minutes.',
+      'Garnish with fresh cream and crushed kasuri methi.',
+    ],
+  ),
+  Recipe(
+    id: 'r3',
+    title: 'Crispy Masala Dosa',
+    imageUrl: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800',
+    duration: 20,
+    difficulty: 'Easy',
+    ingredients: [
+      '2 cups Fermented Dosa Batter',
+      '3 Boiled Potatoes (mashed)',
+      '1 Onion & Green chillies',
+      '1/2 tsp Mustard seeds & Curry leaves',
+      'Butter or Oil for roasting',
+    ],
+    steps: [
+      'Prepare potato masala by tempering mustard seeds, curry leaves, onions, and turmeric.',
+      'Heat a flat tawa and spread a ladle of dosa batter thinly.',
+      'Drizzle butter or oil around the edges until golden and crisp.',
+      'Place a spoon of potato masala in the center and fold.',
+      'Serve hot with coconut chutney and sambar.',
+    ],
+  ),
+];
